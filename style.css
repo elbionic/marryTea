@@ -1,3 +1,8 @@
+* {
+    outline: 1px solid purple;
+    height: 200vh;
+}
+
 /* 
 ==================================================================
 HEADER
@@ -8,9 +13,18 @@ NAVIGATION
 */
 
 nav {
+    position: fixed;
     display: flex;
+    justify-content: space-between;
+    right: 0;
+    width: 100%;
 }
 
 nav img {
-    height: 10vh;
+    min-height: 70px;
+    height: 20vh;
+}
+
+.nav-container-right {
+    display: flex;
 }
